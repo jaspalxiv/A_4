@@ -92,7 +92,7 @@ const LandingPage = ({ user, onLogout }: { user: { firstName: string; lastName: 
 
             {/* Submit button to confirm changes */}
             <TouchableOpacity style={styles.button} onPress={handleSubmit}>
-                <Text style={styles.buttonText}>Submit</Text>
+                <Text style={styles.buttonText}>Update</Text>
             </TouchableOpacity>
 
             {/* Logout button */}
